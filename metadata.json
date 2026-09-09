@@ -1,0 +1,6 @@
+{
+  "name": "亞馬遜國家山岳協會｜登山教育",
+  "description": "亞馬遜國家山岳協會官方登山教育教材第一章：登山入門。建立初學者正確登山觀念、安全評估與基本能力，理解登山不是追求登頂，安全回家才是完成一次山行。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
