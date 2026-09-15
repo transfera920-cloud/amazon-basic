@@ -115,7 +115,7 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright */}
         <div className="border-t border-slate-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>
-            © {new Date().getFullYear()} 亞馬遜國家山岳協會. 版權所有. 登山教育普及推廣專案.
+            © {new Date().getFullYear()} <a href="https://amazon-hike.com/intro" className="hover:text-emerald-400 transition-colors">亞馬遜國家山岳協會</a>. 版權所有. 登山教育普及推廣專案.
           </p>
           <div className="flex items-center gap-4 text-slate-400">
             <span>官方登山教材母版 v1.0</span>

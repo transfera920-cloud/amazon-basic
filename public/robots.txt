@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3c94d28f-amazon-basic.yy661003.workers.dev/sitemap.xml
