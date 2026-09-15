@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({ currentSectionId }) => {
 
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Official Brand */}
-        <a href="#root" className="group flex items-center focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-lg">
+        <a href="https://amazon-hike.com/" className="group flex items-center focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-lg">
           <Brand size="md" />
         </a>
 

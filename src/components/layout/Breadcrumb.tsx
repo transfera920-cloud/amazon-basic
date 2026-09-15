@@ -13,7 +13,7 @@ interface BreadcrumbProps {
 
 export const Breadcrumb: React.FC<BreadcrumbProps> = ({
   items = [
-    { label: '亞馬遜國家山岳協會', href: '#' },
+    { label: '亞馬遜國家山岳協會', href: 'https://amazon-hike.com/' },
     { label: '登山教育', href: '#syllabus-overview' },
     { label: '第一章 登山入門', current: true },
   ],
