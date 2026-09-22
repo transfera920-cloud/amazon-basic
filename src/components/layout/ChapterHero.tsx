@@ -16,6 +16,10 @@ export const ChapterHero: React.FC = () => {
       <div className="relative z-10 max-w-4xl mx-auto">
         {/* Chapter Title & H1 */}
         <div className="space-y-2">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800/80 border border-slate-700/80 text-xs font-semibold text-slate-300">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            <span>{CHAPTER_01_META.chapterLabel || `第${CHAPTER_01_META.chapterNumber}章`}</span>
+          </div>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-100 tracking-tight leading-tight">
             登山入門指南
           </h1>

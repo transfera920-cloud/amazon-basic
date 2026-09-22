@@ -6,6 +6,7 @@
 export interface ChapterMeta {
   id: string;
   chapterNumber: number;
+  chapterLabel?: string;
   title: string;
   subtitle: string;
   englishTitle: string;

@@ -11,6 +11,7 @@ import {
 export const CHAPTER_01_META: ChapterMeta = {
   id: 'chapter-01',
   chapterNumber: 1,
+  chapterLabel: '第一章',
   title: '登山入門指南',
   subtitle: '初學者登山觀念、安全與基本能力',
   englishTitle: 'Introduction to Mountaineering: Fundamentals, Safety & Core Competencies',

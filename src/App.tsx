@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/layout/Header';
+import { Breadcrumb } from './components/layout/Breadcrumb';
 import { ChapterHero } from './components/layout/ChapterHero';
 import { ChapterNavigation } from './components/layout/ChapterNavigation';
 import { Footer } from './components/layout/Footer';
@@ -70,6 +71,9 @@ export default function App() {
 
       {/* Main Container */}
       <main className="flex-1 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 pb-6 sm:pb-8">
+        {/* Breadcrumb Navigation */}
+        <Breadcrumb />
+
         {/* Chapter 1 Hero with core philosophy banner */}
         <ChapterHero />
 
