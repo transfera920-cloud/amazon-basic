@@ -78,14 +78,14 @@ export default function App() {
           {/* Main Reading Content Area (8 Cols on Desktop) */}
           <article className="lg:col-span-8 min-w-0">
             {/* ========================================================
-                SECTION 01: 認識登山活動 (What is Mountaineering)
+                SECTION 01: 登山初學者基本觀念 (Beginner Fundamentals)
                ======================================================== */}
             <Section id="sec-01">
               <SectionHeading
                 id="sec-01"
                 index="01"
-                title="認識登山活動"
-                englishSubtitle="What is Mountaineering"
+                title="登山初學者基本觀念"
+                englishSubtitle="Beginner Fundamentals"
               />
 
               <div className="prose prose-invert max-w-none text-slate-300 text-sm sm:text-base leading-relaxed space-y-4">
@@ -104,7 +104,7 @@ export default function App() {
               </div>
 
               <h3 className="text-base sm:text-lg font-bold text-slate-100 mt-8 mb-4">
-                台灣登山活動教育分類解析
+                天氣與山域判讀：台灣山岳分級與風險解析
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -190,14 +190,14 @@ export default function App() {
             </Section>
 
             {/* ========================================================
-                SECTION 03: 登山者需具備的能力 (Core Competencies)
+                SECTION 03: 體能與登山能力 (Physical Fitness & Competencies)
                ======================================================== */}
             <Section id="sec-03">
               <SectionHeading
                 id="sec-03"
                 index="03"
-                title="登山者需具備的能力"
-                englishSubtitle="Core Competencies"
+                title="體能與登山能力"
+                englishSubtitle="Physical Fitness & Competencies"
               />
 
               <div className="prose prose-invert max-w-none text-slate-300 text-sm sm:text-base leading-relaxed space-y-4">
@@ -273,14 +273,14 @@ export default function App() {
             </Section>
 
             {/* ========================================================
-                SECTION 04: 登山基本安全觀念 (Safety Fundamentals)
+                SECTION 04: 登山安全與風險防範 (Safety & Risk Management)
                ======================================================== */}
             <Section id="sec-04">
               <SectionHeading
                 id="sec-04"
                 index="04"
-                title="登山基本安全觀念"
-                englishSubtitle="Safety Fundamentals"
+                title="登山安全與風險防範"
+                englishSubtitle="Safety & Risk Management"
               />
 
               <div className="prose prose-invert max-w-none text-slate-300 text-sm sm:text-base leading-relaxed space-y-4">
@@ -302,7 +302,7 @@ export default function App() {
               <div className="space-y-3 mt-6">
                 <div className="rounded-xl border border-sky-500/30 bg-sky-950/20 p-4">
                   <h3 className="text-sm font-bold text-sky-300 mb-1">
-                    01 人員因素（主體盲點）
+                    01 人員因素：登山者的體能儲備與心態
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-300">
                     體能儲備不足、高估自我能力、缺乏路線先備知識、同儕逞強盲從、隱瞞自身不適、隊伍彼此脫節落單。
@@ -311,7 +311,7 @@ export default function App() {
 
                 <div className="rounded-xl border border-purple-500/30 bg-purple-950/20 p-4">
                   <h3 className="text-sm font-bold text-purple-300 mb-1">
-                    02 裝備因素（防護缺口）
+                    02 裝備因素：登山裝備的妥善性與防護缺口
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-300">
                     裝備遺漏或不足（如未帶頭燈、未帶雨具）、裝備故障損壞、平時未練習不會操作、未依極端環境溫度合理選配。
@@ -320,7 +320,7 @@ export default function App() {
 
                 <div className="rounded-xl border border-amber-500/30 bg-amber-950/20 p-4">
                   <h3 className="text-sm font-bold text-amber-300 mb-1">
-                    03 環境因素（自然考驗）
+                    03 環境因素：天氣驟變與山域環境判讀
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-300">
                     午後對流雷陣雨、氣溫急遽暴跌、濃霧迷漫視線受阻、濕滑樹根泥濘、落石崩壁、高山低氧氣候。
@@ -337,13 +337,13 @@ export default function App() {
             </Section>
 
             {/* ========================================================
-                SECTION 05: 新手常見錯誤 (Common Beginner Mistakes)
+                SECTION 05: 新手常見錯誤與盲點 (Common Beginner Mistakes)
                ======================================================== */}
             <Section id="sec-05">
               <SectionHeading
                 id="sec-05"
                 index="05"
-                title="新手常見錯誤"
+                title="新手常見錯誤與盲點"
                 englishSubtitle="Common Beginner Mistakes"
               />
 
@@ -394,14 +394,14 @@ export default function App() {
             </Section>
 
             {/* ========================================================
-                SECTION 06: 第一次登山建議流程 (Your First Hike, Step by Step)
+                SECTION 06: 登山前的基本準備與建議流程 (Preparation Before Hiking & Step-by-Step Flow)
                ======================================================== */}
             <Section id="sec-06">
               <SectionHeading
                 id="sec-06"
                 index="06"
-                title="第一次登山建議流程"
-                englishSubtitle="Your First Hike, Step by Step"
+                title="登山前的基本準備與建議流程"
+                englishSubtitle="Preparation Before Hiking & Step-by-Step Flow"
               />
 
               <div className="prose prose-invert max-w-none text-slate-300 text-sm sm:text-base leading-relaxed space-y-4">

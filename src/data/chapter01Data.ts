@@ -11,10 +11,10 @@ import {
 export const CHAPTER_01_META: ChapterMeta = {
   id: 'chapter-01',
   chapterNumber: 1,
-  title: '登山入門',
+  title: '登山入門指南',
   subtitle: '初學者登山觀念、安全與基本能力',
   englishTitle: 'Introduction to Mountaineering: Fundamentals, Safety & Core Competencies',
-  description: '建立正確登山觀念，了解登山活動、風險與基本能力。登山不是只追求登頂，安全回家才是完成一次山行。',
+  description: '登山入門從基本觀念開始，了解登山安全、行前準備、裝備、體能、天氣與山域基本能力，建立適合初學者的登山基礎。',
   readingMinutes: 15,
   sectionsCount: 7,
   targetAudience: '初學者適用・自主登山者入門必讀',
@@ -25,8 +25,8 @@ export const SECTIONS_META: SectionMeta[] = [
   {
     id: 'sec-01',
     index: '01',
-    title: '認識登山活動',
-    englishSubtitle: 'What is Mountaineering',
+    title: '登山初學者基本觀念',
+    englishSubtitle: 'Beginner Fundamentals',
   },
   {
     id: 'sec-02',
@@ -37,26 +37,26 @@ export const SECTIONS_META: SectionMeta[] = [
   {
     id: 'sec-03',
     index: '03',
-    title: '登山者需具備的能力',
-    englishSubtitle: 'Core Competencies',
+    title: '體能與登山能力',
+    englishSubtitle: 'Physical Fitness & Competencies',
   },
   {
     id: 'sec-04',
     index: '04',
-    title: '登山基本安全觀念',
-    englishSubtitle: 'Safety Fundamentals',
+    title: '登山安全與風險防範',
+    englishSubtitle: 'Safety & Risk Management',
   },
   {
     id: 'sec-05',
     index: '05',
-    title: '新手常見錯誤',
+    title: '新手常見錯誤與盲點',
     englishSubtitle: 'Common Beginner Mistakes',
   },
   {
     id: 'sec-06',
     index: '06',
-    title: '第一次登山建議流程',
-    englishSubtitle: 'Your First Hike, Step by Step',
+    title: '登山前的基本準備與建議流程',
+    englishSubtitle: 'Preparation Before Hiking & Step-by-Step Flow',
   },
   {
     id: 'sec-07',
@@ -186,7 +186,7 @@ export const HIKING_STEPS: HikingStep[] = [
   },
   {
     step: '03',
-    title: '準備裝備',
+    title: '登山裝備整備與檢查',
     summary: '依路線季節備妥洋蔥式排汗服飾、充足飲水、行進糧、頭燈與雙向雨具。',
     details: [
       '頭燈與備用電池為「無論是否預計摸黑」之必備保命裝備。',
@@ -195,7 +195,7 @@ export const HIKING_STEPS: HikingStep[] = [
   },
   {
     step: '04',
-    title: '確認天氣',
+    title: '山區天氣與環境確認',
     summary: '行前 2–3 日密切追蹤山區氣象與降雨機率，遇惡劣天候勇於取消。',
     details: [
       '山區天氣與平地不同，應參考中央氣象署山區逐時預報與衛星雲圖。',

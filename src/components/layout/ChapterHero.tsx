@@ -17,12 +17,11 @@ export const ChapterHero: React.FC = () => {
         {/* Chapter Title & H1 */}
         <div className="space-y-2">
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-100 tracking-tight leading-tight">
-            {CHAPTER_01_META.title}
-            <span className="sr-only">：</span>
-            <span className="mt-2 block text-base sm:text-xl font-semibold tracking-normal text-slate-300">
-              {CHAPTER_01_META.subtitle}
-            </span>
+            登山入門指南
           </h1>
+          <p className="mt-2 text-base sm:text-xl font-semibold tracking-normal text-slate-300">
+            {CHAPTER_01_META.subtitle}
+          </p>
           <p className="text-xs sm:text-sm font-mono text-slate-400 tracking-wide">
             {CHAPTER_01_META.englishTitle}
           </p>
